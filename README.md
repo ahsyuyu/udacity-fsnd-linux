@@ -17,3 +17,5 @@ This project deploys the catalog application to a linux server which is secured 
 - In `/etc/ssh/sshd_config`
     -  Change the default port for ssh is changed from `22` to `2200`
     -  Set `PermitRootLogin` and `PasswordAuthentication`to `no`to disable root login and password based login through ssh
+- Incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123) are allowed through UFW
+- Add `WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi` to `/etc/apache2/sites-enabled/000-default.conf`
