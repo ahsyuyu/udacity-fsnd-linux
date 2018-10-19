@@ -1,5 +1,5 @@
 # Full Stack Web Development ND
-##Linux Server Configuration
+## Linux Server Configuration
 _______________________
 ## About
 This project deploys the catalog application to a linux server which is secured and also hosts as our database server
