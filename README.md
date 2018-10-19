@@ -4,6 +4,7 @@
 This project deploys the catalog application to a linux server which is secured and also hosts as our database server
 
 - IP address: http://54.202.75.10
+- Port: 2200
 - URL: http://54.202.75.10.xip.io/
 
 ## Software installed
